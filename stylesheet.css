@@ -1,4 +1,112 @@
-.banner{
+
+
+*{
+	box-sizing: border-box;
+	/*Specify that <div> elements should have padding and border 
+	included in the element's total width and height*/
+}
+
+body{
+  font-family: Arial, sans-serif;
+}
+
+.header{
+	width:100%;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
+	margin: 10px 0;
+	position: relative;
+	/*border: 1px solid #d9d9d9;*/
 }
+
+.your-cart{
+	padding-right: 2px;
+}
+
+.header label{
+	margin-top: 15px;
+	margin-left: 45px;
+}
+
+
+.cart{
+	/*display: flex;*/
+	/*justify-content: flex-start;*/
+	align-items: flex-end;
+	margin-top: 15px;
+	margin-right: 45px;
+}
+
+.banner{
+	display: flex;
+	justify-content: center;
+}
+
+.banner h1{
+	display: block;
+	position: absolute;
+	top: 100px;
+}
+
+.banner img{
+	height: 290px;
+	width: 100%;
+}
+
+.tagline{
+	display: flex;
+	justify-content: center;
+	background-color: black;
+}
+
+.tagline h3{
+	color: white;
+	padding: 20px;
+}
+
+.summary-instruction{
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+	border: 1px solid black;
+}
+
+.products{
+	display: flex;
+	justify-content: center;
+	margin: 15px;
+}
+
+.tb-second-row{
+	display: block;
+}
+
+td{
+	text-align: center;
+	border: 1px solid black;
+}
+
+table{
+	margin: 10px 10px;
+}
+
+button{
+	background-color: orange;
+}
+
+.footer{
+	display: flex;
+	justify-content: center;
+	background-color: black;
+	padding: 10px;
+}
+
+.footer p{
+	color: white;
+}
+
+.footer h5{
+	color: orange;
+}
+

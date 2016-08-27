@@ -44,7 +44,6 @@ body{
 }
 
 .banner h1{
-	display: block;
 	position: absolute;
 	top: 100px;
 }
@@ -72,27 +71,44 @@ body{
 	border: 1px solid black;
 }
 
+/********************************************
+*** Products table formatting****************
+********************************************/
+
 .products{
 	display: flex;
 	justify-content: center;
 	margin: 15px;
 }
 
-.tb-second-row{
-	display: block;
-}
 
-td{
+.item{
 	text-align: center;
 	border: 1px solid black;
+	width: 150px;
+	margin : 5px;
 }
 
-table{
-	margin: 10px 10px;
+/*.item label img{
+	display: block;
+}*/
+
+.item-name{
+	color: white;
+	background-color: black;
 }
 
 button{
 	background-color: orange;
+	margin: 5px 0 5px 0;
+}
+
+.cart-button{
+	background-color: black;
+}
+
+.second-row{
+	display: block;
 }
 
 .footer{
@@ -104,6 +120,7 @@ button{
 
 .footer p{
 	color: white;
+	display: block;
 }
 
 .footer h5{
